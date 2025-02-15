@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doações - ONG Criando Laços</title>
+    <link rel="stylesheet" href="./CSS/doacoes.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Criando Laços</div>
+        <nav>
+            <a href="PF.html">Início</a>
+            <a href="#nosso-trabalho">Nosso Trabalho</a>
+            <a href="voluntariado.html">Voluntariado</a>
+            <a href="doacoes.html">Doações</a>
+            <a href="#sobre-nos">Sobre Nós</a>
+        </nav>
+    </header>
+    <main>
+        <section class="doacao-opcoes">
+            <h1>Escolha como <span class="highlight">Doar:</span></h1>
+            <div class="opcoes">
+                    <button onclick="location.href='FORM/form-pix.html'">PIX</button>
+                    <button onclick="location.href='FORM/form-cartao.html'">Cartão de Crédito</button>
+                    <button onclick="location.href='FORM/form-boleto.html'">Boleto Bancário</button>
+                    <button onclick="location.href='FORM/form-td.html'">Contas para Transferência ou Depósito</button>
+                    <button onclick="location.href='FORM/doar-obj.html'">Doe Objetos Usados em Bom Estado</button>
+            </div>
+            <button class="expand" id="formas-doacao"> + Formas de Doação</button>
+            <div class="formas-adicionais" id="formas-adicionais">
+                <button onclick="exibirInformacoes('necessidades')">Necessidades Emergenciais</button>
+                <button onclick="exibirInformacoes('notas-fiscais')">Doe Notas e Cupons Fiscais</button>
+                <button onclick="exibirInformacoes('eventos')">Eventos Beneficentes</button>
+                <button onclick="exibirInformacoes('bazar')">Compre em Nossos Bazares</button>
+                <button onclick="exibirInformacoes('voluntariado')">Seja Voluntário</button>
+            </div>
+            <div id="informacoes-doacao"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Criando Laços </p>
+    </footer>
+    <script src="JS/doacoes.js"></script>
+</body>
+</html>
