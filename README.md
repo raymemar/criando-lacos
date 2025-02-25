@@ -1,5 +1,5 @@
 # LMS Criando Laços
-Este repositório contém o projeto de um sistema de gerenciamento de aprendizagem (LMS) desenvolvido como parte do Projeto Integrado 2. O objetivo é criar um site para a ONG Criando Laços, oferecendo uma plataforma simples e intuitiva para gestão de conteúdo educacional.
+Este repositório contém o projeto de um sistema de gerenciamento de aprendizagem (LMS) desenvolvido como parte de Projeto Integrado 2. O objetivo é criar um site para a ONG Criando Laços, oferecendo uma plataforma simples e intuitiva para gestão.
 
 Visão Geral:
 O site foi projetado para ser uma solução funcional. O design das telas foi elaborado no Figma e decidido por meio de votação entre os membros da equipe.
