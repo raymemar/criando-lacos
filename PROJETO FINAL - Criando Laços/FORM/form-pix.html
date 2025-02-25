@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doação via PIX</title>
+    <link rel="stylesheet" href="../CSS/formulario-doacoes.css">
+</head>
+<body>
+    <header>
+        <h1>Doação via PIX</h1>
+    </header>
+    <main>
+        <section class="form-doacao">
+            <p>Informe o valor da sua doação</p>
+            <div class="valores">
+                <button onclick="selecionarValor(50)">R$ 50</button>
+                <button onclick="selecionarValor(100)">R$ 100</button>
+                <button onclick="selecionarValor(200)">R$ 200</button>
+                <button onclick="selecionarValor(500)">R$ 500</button>
+                <input type="number" id="outro-valor" placeholder="Outro valor">
+            </div>
+            <form action="#" method="POST">
+                <div class="input-group">
+                    <label for="email">E-mail *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <p>Chave PIX para doação:</p>
+                <h3>pix@ongcriandolacos.org</h3>
+                <div class="total">
+                    <p>Sua doação: <span id="valor-total">R$ 0</span></p>
+                </div>
+                <button type="submit" class="btn-doar">Confirmar Doação</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 ONG Criando Laços. Todos os direitos reservados.</p>
+    </footer>
+    <script src="../JS/formulario-doaces.js"></script>
+</body>
+</html>

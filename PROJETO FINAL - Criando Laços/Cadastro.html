@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./CSS/cadastro.css">
+</head>
+<body>
+    <div class="container">
+        <div class="fechar">&times;</div>
+        <h1>Cadastro</h1>
+        <form id="cadastroForm">
+            <input type="text" placeholder="Nome" required>
+            <input type="text" placeholder="Sobrenome" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Senha" required>
+            <input type="checkbox"> Aceito os termos
+            <button type="submit">Enviar</button>
+        </form>
+        <p>Já tem uma conta? <a href="#">Faça login</a></p>
+    </div>
+    <script>
+        document.getElementById('cadastroForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Impede o envio padrão do formulário
+            localStorage.setItem('isLoggedIn', true); // Simula o login
+            window.location.href = 'Conta.html'; // Redireciona para a página de doações
+        });
+    </script>
+</body>
+</html>

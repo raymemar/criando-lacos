@@ -1,0 +1,223 @@
+/* Estilos Globais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #e6f1fc, #ffffff);
+    color: #000;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #092b5a;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+header .logo img {
+    margin-right: 10px;
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Seção de Introdução */
+.volunteer-intro {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, #e6f1fc, #ffffff);
+}
+
+.volunteer-intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.volunteer-intro p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+/* Seção de Benefícios */
+.volunteer-benefits {
+    text-align: center;
+    padding: 40px 20px;
+    background: #fff;
+}
+
+.volunteer-benefits h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.volunteer-benefits ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.volunteer-benefits li {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+/* Seção de Histórias */
+.volunteer-stories {
+    text-align: center;
+    padding: 40px 20px;
+    background: #fff;
+}
+
+.volunteer-stories h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.stories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.story {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.story h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.story p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Seção de Oportunidades de Voluntariado */
+.volunteer-opportunities {
+    text-align: center;
+    padding: 40px 20px;
+    background: #fff;
+}
+
+.volunteer-opportunities h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.volunteer-opportunities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.volunteer-opportunities li {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+/* Seção de Perguntas Frequentes */
+.volunteer-faq {
+    text-align: center;
+    padding: 40px 20px;
+    background: #fff;
+}
+
+.volunteer-faq h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.volunteer-faq .faq-questions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.volunteer-faq .faq-item {
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.volunteer-faq h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.volunteer-faq p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Seção de Chamada à Ação */
+.volunteer-cta {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, #e6f1fc, #ffffff);
+}
+
+.volunteer-cta h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.volunteer-cta p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+/* Botões */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background: #e6f1fc;
+    color: #555;
+    font-size: 0.9em;
+}

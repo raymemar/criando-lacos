@@ -1,0 +1,167 @@
+body {
+    margin: 20px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #092b5a;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+header .logo img {
+    margin-right: 10px;
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+.aaaaa{
+    background-color: #f3f4f6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+.foto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid white;
+}
+
+.icone{
+    display: flex;
+    padding-left: 16px;
+    width: 30pxpx;
+    height: 30px;
+
+}
+.username {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.role {
+    font-size: 0.9em;
+    color: #d9d9d9;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 0.9em;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: rgb(230, 187, 0);
+}
+
+main {
+    padding: 20px;
+}
+
+h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.formulario, .info-pessoal, .info-login {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #000000;
+}
+
+form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+form button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+form button[type="button"] {
+    background-color: #007bff;
+    color: white;
+}
+
+form button[type="reset"] {
+    background-color: #ccc;
+    color: #333;
+    margin-left: 10px;
+}
+
+form button:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .menu a {
+        display: block;
+        margin: 10px 0;
+    }
+}
